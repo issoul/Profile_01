@@ -1,0 +1,14 @@
+#home{
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+}
+    .home_avatar{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 3px solid var(--color-accent);
+    }
