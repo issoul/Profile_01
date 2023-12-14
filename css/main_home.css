@@ -1,5 +1,5 @@
 #home{
-    background-color: var(--color-primary);
+    background-color: #f3d40a;
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 7rem;
@@ -10,5 +10,5 @@
         height: 250px;
         object-fit: cover;
         border-radius: 100%;
-        border: 3px solid var(--color-accent);
+        border: 3px solid var(--color-text);
     }
