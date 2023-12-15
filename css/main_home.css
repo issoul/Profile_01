@@ -10,6 +10,7 @@
         height: 250px;
         object-fit: cover;
         border-radius: 100%;
+        margin-bottom: 1rem;
         border: 3px solid var(--color-text);
     }
     .section_title{
@@ -17,22 +18,22 @@
         margin-bottom: 1rem;
     }
         .home_title-strong{
-            color: var(--color-accent);
+            color: var(--color-orange);
         }
     .section_description{
         font-size: 1.3rem;
     }
     .section_contact{
         display: inline-block;
-        background-color: var(--color-accent);
-        color: var(--color-black);
         margin: 1rem;
         padding: 0.5rem 1rem;
         font-weight: bold;
         border-radius: 5px;
+        background-color: transparent;
+        color: var(--color-orange);
+        outline: 2px solid var(--color-orange);
     }
     .section_contact:hover{
-        background-color: transparent;
-        color: var(--color-text);
-        outline: 2px solid var(--color-accent);
+        background-color: var(--color-orange);
+        color: var(--color-black);
     }
