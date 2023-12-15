@@ -6,9 +6,12 @@
 
 .skills_content{
     display: grid;
+    box-sizing: border-box;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 6fr 4fr;
     margin: 2rem 3rem;
+    border-radius: 20px;
+    overflow: hidden;
     grid-template-areas: "a b""a c";
 }
     .skills_coding{
@@ -53,7 +56,7 @@
 /* text 처리 */
     .skills_title{
         display: flex;
-        width: 100%;
+        width: 85%;
         justify-content: center;
         align-items: center;
         margin: 1rem;
@@ -61,7 +64,7 @@
     }
     .bar_text_02{
         display: flex;
-        width: 100%;
+        width: 85%;
         justify-content: center;
         align-items: center;
         margin: 1rem;
