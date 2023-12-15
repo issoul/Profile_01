@@ -12,7 +12,12 @@
         border-radius: 100%;
         margin-bottom: 1rem;
         border: 3px solid var(--color-text);
+        animation: rotate_image 6s linear infinite;
     }
+        @keyframes rotate_image{
+            100% { transform: rotate(360deg);}
+        }
+        
     .section_title{
         font-size: 3rem;
         margin-bottom: 1rem;
