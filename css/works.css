@@ -48,6 +48,7 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 1rem;
+        margin: 2.5rem 0;
     }
         .project{
             position: relative;
