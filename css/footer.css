@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 5rem;
     padding: 1rem;
 }
@@ -24,7 +25,7 @@
 
     .contact_icon_wrap{
         display: flex;
-        flex-flow: nowrap;
+        flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
         gap: 0.5rem;
