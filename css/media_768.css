@@ -17,7 +17,6 @@
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
     }
-}
 
     /* header 부분 */
     .header{
@@ -30,6 +29,7 @@
         width: 100%;
     }
         .header_menu{
+            display: none;
             flex-direction: column;
             text-align: center;
             padding: 1rem 4rem;
@@ -50,5 +50,74 @@
 
     /* about 부분 */
     .about_content{
-        flex-direction: ;
+        flex-direction: column;
+        align-items: center;
     }
+    .about_box{
+        width: 100%;
+    }
+
+    /* skills 부분 */
+    .skills_content { 
+        display: grid;
+        width: 100%;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        margin: 2rem auto;
+        grid-template-areas: "a" "b" "c";
+    }
+        /* 생략가능 */
+        .skills_coding{
+            grid-area: a;
+            padding: 1rem;
+            background-color: var(--color-primary);
+        }
+        .skills_tools{
+            grid-area: b;
+            padding: 1rem;
+            background-color: var(--color-primary);
+            filter: brightness(150%);
+        }
+        .skills_etc{
+            grid-area: c;
+            padding: 1rem;
+            background-color: var(--color-primary);
+            filter: brightness(120%);
+        }
+    
+    /* my work */
+    .category{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .category_button{
+            width: 100%;
+        }
+        /* project 8개 시작 */
+        .project_all{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    
+    /* testimonial */
+    .testimonial_each{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial_each:nth-child(even) .testimonial_img{
+        order: 0;
+    }
+
+    /* top button */
+    .arrow_up{
+        right: 1rem;
+        bottom: 1rem;
+        transform: scale(0.8);
+    }
+
+    /* footer */
+    
+}
