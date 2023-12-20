@@ -37,6 +37,8 @@
         }
         .header_menu.open{
             display: flex;
+            flex-flow: column nowrap;
+            width: 100%;
         }
     .hambuger{
         display: block;
