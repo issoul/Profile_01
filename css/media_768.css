@@ -121,5 +121,8 @@
     }
 
     /* footer */
-    
+    .contact_all>li>a{
+        width: 100%;
+        text-align: center;
+    }
 }
