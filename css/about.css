@@ -3,8 +3,16 @@
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    opacity: 0%;
     margin: 2.5rem 0;
+    transition: all 1s;
 }
+
+.about_content.open{
+    opacity: 100%;
+    transition: all 2s;
+}
+
     .about_box{
         width: 30%;
         background-color: #0d41d3;
@@ -17,6 +25,7 @@
                     0px 8px 24px rgba(17,17,26,0.1),
                     0px 16px 56px rgba(17,17,26,0.1);
     }
+
     .about_box:hover .about_icon{
         transform: rotate(-15deg) scale(1.2);
         transition: all 0.5s;
