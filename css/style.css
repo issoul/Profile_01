@@ -69,6 +69,11 @@ button:focus{
     align-items: center;
     z-index: 999;
 }
+
+.header.header-dark{
+    background-color: orangered;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
     .header_logo{
         display: flex;
         align-items: center;
