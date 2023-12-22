@@ -38,3 +38,7 @@ const ttxt = document.querySelector('.testimonial_bubble');
 timg.addEventListener('click', ()=>{
     ttxt.style.color = "orangered";
 })
+/*
+const 변수이름 = document.querySelector('불러올개체')
+
+*/
