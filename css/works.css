@@ -23,7 +23,6 @@
         .category_button:hover{
             background-color: var(--color-orange);
         }
-
         .category_selected{
             background-color: var(--color-orange);
             color: var(--color-primary);
