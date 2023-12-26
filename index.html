@@ -36,6 +36,7 @@
     <link href="./css/media_768.css" rel="stylesheet">
     <!-- JavaScript start-->
     <script type="module" src="./js/main.js" defer></script>
+    <script type="module" src="./js/main02.js" defer></script>
 </head>
 <body>
     <!--header start-->
@@ -56,8 +57,8 @@
                 <li><a class="header_menu_item" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <!--hambuger button (pc display: none;)-->
-        <div class="hambuger">
+        <!--hamburger button (pc display: none;)-->
+        <div class="hamburger">
             <span class="material-symbols-outlined">menu</span>
         </div>
     </header>
@@ -198,24 +199,24 @@
             <p class="section_text">projects</p>
             <ul class="category">
                 <li>
-                    <button class="category_button category_selected">All
+                    <button class="category_button category_selected" data-category="all">All
                     <span class="work_count">8</span></button>
                 </li>
                 <li>
-                    <button class="category_button">Front-end
+                    <button class="category_button" data-category="front-end">Front-end
                     <span class="work_count">3</span></button>
                 </li>
                 <li>
-                    <button class="category_button">Design
+                    <button class="category_button" data-category="design">Design
                     <span class="work_count">3</span></button>
                 </li>
                 <li>
-                    <button class="category_button">Mobile
+                    <button class="category_button" data-category="mobile">Mobile
                     <span class="work_count">2</span></button>
                 </li>
             </ul>
             <ul class="project_all">
-                <li class="project">
+                <li class="project" data-type="front-end">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_01.png" alt="project_01 image">
                         <div class="project_text">
@@ -224,7 +225,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="front-end">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_02.png" alt="project_02 image">
                         <div class="project_text">
@@ -233,7 +234,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="front-end">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_03.png" alt="project_03 image">
                         <div class="project_text">
@@ -242,7 +243,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_04.png" alt="project_04 image">
                         <div class="project_text">
@@ -251,7 +252,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_05.png" alt="project_05 image">
                         <div class="project_text">
@@ -260,7 +261,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_06.png" alt="project_06 image">
                         <div class="project_text">
@@ -269,7 +270,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="mobile">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_07.png" alt="project_07 image">
                         <div class="project_text">
@@ -278,7 +279,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project"  data-type="mobile">
                     <a href="#" target="_blank">
                         <img class="project_img" src="images/project_08.png" alt="project_08 image">
                         <div class="project_text">
@@ -299,7 +300,7 @@
                 See What they say about me
             </p>
             <ul class="testimonial_all">
-                <li class="testimonial_each">
+                <li class="testimonial_each" id="each_1">
                     <img src="images/people_01.png" width="150" alt="people_01" class="testimonial_img">
                     <div class="testimonial_bubble">
                         <p>
@@ -313,7 +314,7 @@
                             /Company_01
                         </p>
                     </div>
-                    <li class="testimonial_each">
+                    <li class="testimonial_each" id="each_2">
                         <img src="images/people_02.png" width="150" alt="people_02" class="testimonial_img">
                         <div class="testimonial_bubble">
                             <p>
@@ -327,8 +328,8 @@
                                 /Company_02
                             </p>
                         </div>
-                    </li>
-                    <li class="testimonial_each">
+                    </li> 
+                    <li class="testimonial_each" id="each_3">
                         <img src="images/people_03.png" width="150" alt="people_03" class="testimonial_img">
                         <div class="testimonial_bubble">
                             <p>
