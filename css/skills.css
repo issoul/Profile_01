@@ -13,6 +13,7 @@
     border-radius: 20px;
     overflow: hidden;
     grid-template-areas: "a b""a c";
+    transition: all 1s;
 }
     .skills_coding{
         grid-area: a;
