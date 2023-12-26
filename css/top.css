@@ -11,4 +11,6 @@
     border-radius: 100%;
     background-color: var(--color-orange);
     box-shadow: 2px 2px 0px 0px var(--color-text);
+    transition: all 1000ms;
+    opacity: 0;
 }
