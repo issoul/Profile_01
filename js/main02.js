@@ -37,8 +37,49 @@ categories.addEventListener('click', (event)=>{
         project.style.display = 'none';
     }
     if (filter == null){
+        active_button.classList.remove('category_selected')
         return;
     }
     
     })
+
+
+// 클릭한 버튼에 category_selected 설정하기
+const active_button = document.querySelector('.category_selected');
+active_button.classList.remove('category_selected')
+                            // .category_selected는 오류, 마침표 반드시 생략
+event.target.classList.add('category_selected');
+console.log(event.target);
+
+
+})
+
+
+/* 추가 실습 메인 메뉴에 셀렉티드 설정하기 */
+
+navMenu.addEventListener('click', (event)=>{
+    console.log(event);
+
+
+const main_menu = document.querySelector('.active');
+main_menu.classList.remove('active');
+event.target.classList.add('active');
+console.log(event.target);
+
+
+})
+
+// 추가 실습, 스크롤 시 메뉴 셀렉티드...(실패) //
+const menu_list = document.querySelectorAll('.about')
+const about_wrap = document.querySelector('#about');
+const aboutHeight = about_wrap.offsetHeight;
+
+menu_list.addEventListener('scroll', (event)=>{
+    console.log(event);
+
+    if(window.scrollY >= aboutHeight) {
+        main_menu.classList.remove('active');
+        menu_list.classList.add('active');
+    } 
+
 })
