@@ -1,4 +1,25 @@
+.custom-shape-divider-top-1703651504 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1703651504 svg {
+    position: relative;
+    display: block;
+    width: calc(206% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1703651504 .shape-fill {
+    fill: #F3D40A;
+}
+
 #home{
+    position: relative;
     background-color: #f3d40a;
     color: var(--color-text);
     padding: 5rem 1rem;
