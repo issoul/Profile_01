@@ -10,15 +10,17 @@
 
 .testimonial_all{
     margin: 3rem;
-
 }
     .testimonial_each{
         display: flex;
         gap: 2rem;
+        justify-content: center;
         align-items: center;
         margin-bottom: 2rem;
         transition: all 1s;
     }
+
+
     .testimonial_each:nth-child(even) .testimonial_img{
         order: 1; /* 0이면 왼쪽, 1이면 오른쪽  */
     }
@@ -39,3 +41,5 @@
                 color: var(--color-orange);
                 font-weight: bold;
             }
+
+        
