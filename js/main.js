@@ -86,7 +86,7 @@ document.addEventListener('scroll', ()=>{
 const testimonial_each2 = document.querySelector('#each_2')
 document.addEventListener('scroll', ()=>{
     console.log(window.scrollY);
-    if(window.scrollY > 2600){
+    if(window.scrollY > 2500){
         testimonial_each2.style.marginRight = "0px";
         testimonial_each2.style.opacity = 1;
     }else{
@@ -99,7 +99,7 @@ document.addEventListener('scroll', ()=>{
 const testimonial_each3 = document.querySelector('#each_3')
 document.addEventListener('scroll', ()=>{
     console.log(window.scrollY);
-    if(window.scrollY > 2900){
+    if(window.scrollY > 2700){
         testimonial_each3.style.marginLeft = "0px";
         testimonial_each3.style.opacity = 1;
     }else{
